@@ -1,0 +1,50 @@
+CÓMO PUBLICAR EN GITHUB PAGES DESDE EL CELULAR
+================================================
+(Todos los archivos de este ZIP van sueltos, sin carpetas — están listos
+para subir tal cual.)
+
+PASO 1 — Crear cuenta (si no tienes)
+1. Ve a github.com desde Chrome en tu celular.
+2. "Sign up" → correo, contraseña, nombre de usuario. Confirma tu correo.
+
+PASO 2 — Crear el repositorio
+1. Ya con tu cuenta, toca el ícono "+" (arriba) → "New repository".
+2. Repository name: por ejemplo   registro-5e
+3. Marca "Public".
+4. Marca la opción "Add a README file" (para que el repositorio no quede
+   vacío) y toca "Create repository".
+
+PASO 3 — Subir los archivos
+1. Dentro del repositorio recién creado, toca "Add file" → "Upload files".
+2. Toca donde dice "choose your files" y selecciona TODOS los archivos de
+   este ZIP ya descomprimido (index.html, manifest.json, service-worker.js
+   y los 11 archivos .png) — tu celular permite seleccionar varios a la vez
+   desde la galería/explorador.
+3. Espera que termine de cargar la lista (puede tardar unos segundos por
+   ser 15 archivos).
+4. Abajo, en "Commit changes", deja el mensaje que salga por defecto y
+   toca "Commit changes" / "Confirmar cambios".
+
+PASO 4 — Activar GitHub Pages
+1. Dentro del repositorio, ve a "Settings" (⚙️, puede estar en el menú de
+   las tres rayas si la pantalla es angosta).
+2. En el menú lateral, busca "Pages".
+3. En "Branch", selecciona "main" y la carpeta "/ (root)". Toca "Save".
+4. Espera 1–2 minutos. Recarga la página "Pages" y te mostrará el enlace:
+   https://TU-USUARIO.github.io/registro-5e/
+
+PASO 5 — Instalar en el celular
+1. Abre ese enlace en Chrome (Android) o Safari (iPhone).
+2. Android: aparece el botón "⬇ Instalar app" en la app, o desde el menú
+   ⋮ del navegador → "Instalar aplicación".
+   iPhone: botón compartir → "Añadir a pantalla de inicio".
+3. Listo — quedará instalada con el ícono del sello de 5.° grado y abrirá
+   a pantalla completa, sin la barra del navegador.
+
+NOTA
+Cada vez que quieras actualizar la app (por ejemplo si te envío una nueva
+versión más adelante), repites el PASO 3: subes de nuevo los archivos con
+"Add file → Upload files" — GitHub reemplaza automáticamente los que
+tengan el mismo nombre. Luego, en el celular donde ya la instalaste, basta
+con cerrar y volver a abrir la app para que tome los cambios (el
+service-worker se actualiza solo).
